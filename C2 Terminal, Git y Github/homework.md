@@ -30,7 +30,7 @@ WINDOWS $ dir
 "**Change Directory**": nos permite movernos a un directorio a otro.
 
 ```bash
-        $ cd [nombreDeLaCarpeta]  -----> PARA INGRESAR A UN DIRECTORIO
+        $ cd  -----> PARA INGRESAR A UN DIRECTORIO
         $ cd ..                   -----> PARA VOLVER AL DIRECTORIO ANTERIOR
 ```
 

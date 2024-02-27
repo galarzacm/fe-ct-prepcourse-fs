@@ -1,0 +1,17 @@
+#Home {
+    width: 50;
+    color: red;
+}
+
+
+nav ul li{
+    color: black;
+    font-size: 50px;
+}
+
+h1{
+    color: red;
+    font-size: 40px;
+}
+
+/* Se usa # para formatear elementos DOM por ID */
