@@ -14,16 +14,33 @@
     <header>
     <img src="./assets/img/g logo.jpg" alt="logo letra G" id="Letra G">
     <img src="./assets/img/Grover.jpg" alt="palabra Grover" id="Grover">
-     
+  
+    
+    <div class="nav">
+        <ul>
+            <!--Creo un selector por ID para Home-->
+            <li id="Home" a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#"> Service</a></li>
+            <li><a href="#"> Shop</a></li>
+        </ul>
+    </div>
+
+
+
+<!--Comentario
     <nav>
         <ul>
-            <li>Home</li id="Home">
+            Creo un selector por ID para Home
+            <li id="Home">Home</li>
             <li>Menu</li>
             <li>Service</li>
             <li>Shop</li>
         </ul>
     </nav>
+-->
     
+
     <img src="./assets/img/lupa.jpg" alt="lupa" id="lupa"/>
     <input type="text" placeholder="Search" >
     <span>|</span>
@@ -36,7 +53,7 @@
     <section>
         <article>
         <h1>Groceries delivered in as litte as </h1>
-        <h1>2 hours</h1>
+        <h2>2 hours</h2>
         <h5>
             Grocen atssures fresh grocery every morning to your family without getting out in this pandemic
         </h5>
@@ -46,10 +63,12 @@
     <!--Seccion derecha (men)-->
     <section>
         <article>
-        <img src="./assets/img/orange.jpg" alt="Frutas de naranjas"/>
-        <img src="./assets/img/chef.jpg" alt="chef"/>
-        
-    </article>
+            <div class="contenedor">
+        <img src="./assets/img/orange.jpg" class="orange" alt="Frutas de naranjas"/>
+        <img src="./assets/img/chef.jpg" class="chef" alt="chef"/>
+            </div>    
+    
+        </article>
     </section>
 
 </main>
