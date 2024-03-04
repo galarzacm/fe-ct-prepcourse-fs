@@ -35,7 +35,9 @@ h2 {
 
 /*Colocar una imagen al lado de otra*/
 .contenedor{
-    display:contents;
+    display:auto;
+    object-fit: cover;
+    justify-content: center;
 }
 .orange{
     width: auto;
